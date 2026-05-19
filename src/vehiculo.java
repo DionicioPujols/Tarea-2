@@ -68,7 +68,7 @@ public class vehiculo {
     @Override
     public String toString() {
         return String.format(
-            "Placa: %-10s | Marca: %-12s | Modelo: %-12s | Año: %d | Color: %-10s | Precio: $%,.2f",
+            "%-12s | %-15s | %-15s | %-6d | %-12s | $%,.2f",
             placa, marca, modelo, year, color, precio
         );
     }
